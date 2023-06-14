@@ -3,10 +3,12 @@
 In this project, I created a simple word game that challenges players to form as many words as possible from a given set of letters. The program will provide a random set of letters, and the player will try to come up with words using those letters within a time limit. basically its my practice code for C header files
 
 Tech Stack:
+
 - Programming Language: C
 - Standard Libraries: `stdio.h`, `stdlib.h`, `ctype.h`, `string.h`, `time.h`
 
 Features:
+
 1. Random Letter Generation:
    - The program will generate a random set of letters using the `time.h` library and a random number generator.
    - The number of letters can be adjusted based on the desired difficulty level.
@@ -29,10 +31,3 @@ Features:
 
 6. Leaderboard:
    - The program can keep track of high scores and display a leaderboard showing the top scores achieved by players.
-
-7. User Interface:
-   - You can create a user-friendly interface using the `stdio.h` library for input/output operations.
-   - Implement menus, prompts, and messages to guide the player through the game.
-
-
-
