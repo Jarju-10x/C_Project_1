@@ -25,11 +25,7 @@ Features:
    - The program will utilize the `time.h` library to implement a timer for the game.
    - It will set a time limit for the player to come up with as many words as possible.
 
-5. Word Database:
-   - You can implement a simple word database using arrays or linked lists to store valid words.
-   - The program can use the database to validate player input and provide hints if needed.
-
-6. Leaderboard:
+5. Leaderboard:
    - The program can keep track of high scores and display a leaderboard showing the top scores achieved by players.
 
 _Overall this is my simple practice project to use the libraries functions in C programming language_
