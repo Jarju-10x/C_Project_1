@@ -28,4 +28,4 @@ Features:
 5. Leaderboard:
    - The program can keep track of high scores and display a leaderboard showing the top scores achieved by players.
 
-_Overall this is my simple practice project to use the libraries functions in C programming language_
+_This is my simple practice project to use the libraries functions in C programming language_
