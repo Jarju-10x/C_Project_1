@@ -1,42 +1,69 @@
 #include <iostream>
 #include <random>
+#include <ostream>
 
-using namespace std;
 
-char UserMove();
-char ComputerMove();
-char ShowTheInput();
-char WhoIsTheWinner();
+char User_Move();
+void Computer_Move();
+void Show_The_Input(char c);
+void Who_Is_The_Winner();
 
 int main(){
 
-  char user, mac;
-  UserMove();
+  char user_choice; 
+  char machine_choice;
+  
+  
+  user_choice= User_Move();
 
+  std::cout << "\nYour choice : ";
+  Show_The_Input(user_choice);
 
 }
 
-char UserMove()
+char User_Move()
+{
+  char choice;
+  
+  do{
+  std::cout << "\n---------------------------\n";
+  std::cout << "  ROCK - PAPER - SCISSORS" << std::endl;
+  std::cout << "---------------------------\n";
+  std::cout << "(Choose from the list below)\n" << std::endl;
+  std::cout << " 'r' - ROCK \n" << std::endl;
+  std::cout << " 'p' - PAPER \n" << std::endl;
+  std::cout << " 's' - SCISSORS" << std::endl;
+  std::cout << "\nCHOOSE ONE : ";
+  
+  std::cin >> choice;
+   
+  }while (choice != 'r' && choice != 's' && choice != 'p' );
+  
+  return choice;
+
+}
+
+void Computer_Move()
 {
   
-  std::cout << "---------------------------\n";
-  std::cout << "  ROCK - PAPER - SCISSORS"<< endl;
-  std::cout << "---------------------------\n"<<endl;
-
-  return 0;
 }
 
-char ComputerMove()
+void Show_The_Input( char c)
 {
-  return 0;
+  switch (c)
+  {
+      case 'r':  std::cout << "ROCK";
+              break;
+      case 'p':  std::cout << "PAPER";
+              break;
+      case 's':  std::cout << "SCISSORS";
+              break;
+  
+  }
+
 }
 
-char ShowTheInput()
+void Who_Is_The_Winner()
 {
-  return 0;
-}
-
-char WhoIsTheWinner()
-{
-  return 0;
+  
 }
