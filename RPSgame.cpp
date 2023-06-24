@@ -4,7 +4,7 @@
 
 
 char User_Move();
-void Computer_Move();
+char Computer_Move();
 void Show_The_Input(char c);
 void Who_Is_The_Winner();
 
@@ -43,9 +43,9 @@ char User_Move()
 
 }
 
-void Computer_Move()
+char Computer_Move()
 {
-  
+   return 0;
 }
 
 void Show_The_Input( char c)
