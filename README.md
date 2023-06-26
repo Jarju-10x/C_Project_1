@@ -3,5 +3,5 @@
 
 This is an small cpp project featuring a Rock paper scissors game 
 
-
+<<<<<<<<< BODY
 
