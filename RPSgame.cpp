@@ -23,10 +23,13 @@ int main(){
 
   std::cout << "\nYour choice : ";
   Show_The_Input(user_choice);
+
   std::cout << "\tComputer choice : ";
   Show_The_Input(machine_choice);
+
   std::cout << "\n\n    <<<<<<<<<<<  >>>>>>>>>>>\n";
   Who_Is_The_Winner(user_choice, machine_choice);
+  
 }
 
 char User_Move()
