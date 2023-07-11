@@ -14,8 +14,10 @@ int main(){
 
   char user_choice; 
   char machine_choice;
-  
-  
+  char cont;
+  do
+  {
+
   user_choice = User_Move();
   machine_choice = Computer_Move();
 
@@ -30,6 +32,11 @@ int main(){
   std::cout << "\n\n    <<<<<<<<<<<  >>>>>>>>>>>\n";
   Who_Is_The_Winner(user_choice, machine_choice);
   
+  std::cout << "\n\n Wanna try again ?(y/n) : ";
+  std::cin >> cont;
+  
+  } while (cont=='y');
+
 }
 
 char User_Move()
